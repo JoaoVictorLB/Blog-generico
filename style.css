@@ -17,12 +17,12 @@ li a:hover {
     color: #ad705c;
 }
 
-li.selected a {
+li a.selected {
     color: #cf862d;
     font-weight: 800;
 }
 
-li.selected a::after {
+li a.selected::after {
     content: '';
     display: block;
     width: 100%;
